@@ -400,8 +400,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('🔍 Search Movies', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('🎞 Main Channel', url='https://t.me/TamilMob_LinkZz'),
-            InlineKeyboardButton('Request Group 🔗', url='https://t.me/TamilMob_Discussion')
+            InlineKeyboardButton('🎞 Main Channel', url='https://t.me/SECREAT_MOVIES_OFFICAL'),
+            InlineKeyboardButton('Request Group 🔗', url='https://t.me/+1nAcD10_0Gg4Y2Zl')
             ],[
             InlineKeyboardButton('About Meh 📬', callback_data='about')
         ]]
@@ -430,7 +430,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/TamilMob_LinkZz'),
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/SECREAT_MOVIES_OFFICAL'),
             InlineKeyboardButton('♥️ Source', callback_data='source')
             ],[
             InlineKeyboardButton('🏠 Home', callback_data='start'),
@@ -641,7 +641,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"**Mᴏᴠɪᴇ Nᴀᴍᴇ 🎞️** : ​`{search}`\n\n**🔗 Join : @TamilMob_LinkZz 🔗**"
+        cap = f"**Mᴏᴠɪᴇ Nᴀᴍᴇ 🎞️** : ​`{search}`\n\n**🔗 Join : @SECREAT_MOVIES_OFFICAL 🔗**"
     if imdb and imdb.get('poster'):
         try:
             await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
