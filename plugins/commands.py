@@ -22,10 +22,10 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Updates', url='https://t.me/TamilMob_LinkZz')
+                InlineKeyboardButton('🤖 Updates', url='https://t.me/SECREAT_MOVIES_OFFICAL')
             ],
             [
-                InlineKeyboardButton('Join Our Group', url=f"https://t.me/TamilMob_Discussion"),
+                InlineKeyboardButton('Join Our Group', url=f"https://t.me/+1nAcD10_0Gg4Y2Zl"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -43,8 +43,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('🔍 Search Movies', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('🎞 Main Channel', url='https://t.me/TamilMob_LinkZz'),
-            InlineKeyboardButton('Request Group 🔗', url='https://t.me/TamilMob_Discussion')
+            InlineKeyboardButton('🎞 Main Channel', url='https://t.me/SECREAT_MOVIES_OFFICAL'),
+            InlineKeyboardButton('Request Group 🔗', url='https://t.me/+1nAcD10_0Gg4Y2Zl')
             ],[
             InlineKeyboardButton('About Meh 📬', callback_data='about')
         ]]
@@ -83,8 +83,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('🔍 Search Movies', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('🎞 Main Channel', url='https://t.me/TamilMob_LinkZz'),
-            InlineKeyboardButton('Request Group 🔗', url='https://t.me/TamilMob_Discussion')
+            InlineKeyboardButton('🎞 Main Channel', url='https://t.me/SECREAT_MOVIES_OFFICAL'),
+            InlineKeyboardButton('Request Group 🔗', url='https://t.me/+1nAcD10_0Gg4Y2Zl')
             ],[
             InlineKeyboardButton('About Meh 📬', callback_data='about')
         ]]
