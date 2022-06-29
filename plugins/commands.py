@@ -22,10 +22,10 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Updates', url='https://t.me/SECREAT_MOVIES_OFFICAL')
+                InlineKeyboardButton('🤖 Updates', url='https://t.me/kd_linksz')
             ],
             [
-                InlineKeyboardButton('Join Our Group', url=f"https://t.me/+1nAcD10_0Gg4Y2Zl"),
+                InlineKeyboardButton('Join Our Group', url=f"https://t.me/+BqkBdHWkBqA2M2Jl"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -43,8 +43,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('🔍 Search Movies', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('🎞 Main Channel', url='https://t.me/SECREAT_MOVIES_OFFICAL'),
-            InlineKeyboardButton('Request Group 🔗', url='https://t.me/+1nAcD10_0Gg4Y2Zl')
+            InlineKeyboardButton('🎞 Main Channel', url='https://t.me/kd_linksz'),
+            InlineKeyboardButton('Request Group 🔗', url='https://t.me/+BqkBdHWkBqA2M2Jl')
             ],[
             InlineKeyboardButton('About Meh 📬', callback_data='about')
         ]]
@@ -83,8 +83,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('🔍 Search Movies', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('🎞 Main Channel', url='https://t.me/SECREAT_MOVIES_OFFICAL'),
-            InlineKeyboardButton('Request Group 🔗', url='https://t.me/+1nAcD10_0Gg4Y2Zl')
+            InlineKeyboardButton('🎞 Main Channel', url='https://t.me/kd_linksz'),
+            InlineKeyboardButton('Request Group 🔗', url='https://t.me/+BqkBdHWkBqA2M2Jl')
             ],[
             InlineKeyboardButton('About Meh 📬', callback_data='about')
         ]]
